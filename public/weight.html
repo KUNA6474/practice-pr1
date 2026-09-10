@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weight</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="container">
+        <a href="/">Home</a>
+        <a href="/temperature">Temperature</a>
+        <a href="/length">Length</a>
+        <a href="/weight">Weight</a>
+    </nav>
+
+    <h1>Weight Conversion</h1>
+
+    <form action="/weight" method="post">
+
+        <label>Enter Weight:</label>
+
+        <input 
+            type="number"
+            name="weight"
+            required
+        >
+
+        <button type="submit" name="conversion" value="kilograms">
+            Convert to Kilograms
+        </button>
+
+        <button type="submit" name="conversion" value="pounds">
+            Convert to Pounds
+        </button>
+
+
+</body>
+</html>

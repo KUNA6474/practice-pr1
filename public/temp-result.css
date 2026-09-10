@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.result-box {
+    width: 400px;
+    margin: 100px auto;
+    padding: 30px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px gray;
+}
+
+.result-box h1 {
+    color: #200cfb;
+}
+
+#result {
+    padding: 15px;
+    background-color: #c5e586;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.result-box a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #200cfb;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
